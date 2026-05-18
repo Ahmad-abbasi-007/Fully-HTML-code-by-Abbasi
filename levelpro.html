@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- list of html tags unorder and order list -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol>
+        <li>Step 1</li>
+        <li>Step 2</li>
+        <li>Step 3</li>
+    </ol>
+    <!-- table in html layout -->
+    <table>
+        <caption>Personal Information</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>Ahmad</td>
+            <td>20</td>
+            <td>Pakistan</td>
+        </tr>
+
+        <tr>
+            <td>Ali</td>
+            <td>25</td>
+            <td>India</td>
+        </tr>
+    </table>
+    <!-- thead and tbody in html layout for table heading and table body -->
+    <table>
+        <caption>Personal Information</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ahmad</td>
+                <td>20</td>
+                <td>Pakistan</td>
+            </tr>
+
+            <tr>
+                <td>Ali</td>
+                <td>25</td>
+                <td>India</td>
+            </tr>
+        </tbody>
+    </table>
+    
+        <!-- colspan and rowspan in html layout for merging cells in table -->
+    <table border="1">
+        <caption>Personal Information</caption>
+        <tr>
+            <td colspan="2">Merged Cell</td>
+            <td>City</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Name</td>
+            <td>Age</td>
+            <td>City</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Pakistan</td>
+        </tr>
+    </table>
+    <!-- form in html layout for user input -->
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- button in html layout for clickable button -->
+    <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+    radio button in html layout for selecting one option from multiple options
+    <form>
+        <p>Choose your favorite color:</p>
+        <input type="radio" id="red" name="color" value="red">  
+        <label for="red">Red</label><br>
+        <input type="radio" id="blue" name="color" value="blue">
+        <label for="blue">Blue</label><br>
+        <input type="radio" id="green" name="color" value="green">
+        <label for="green">Green</label><br>
+    </form>    
+    <!-- checkbox in html layout for selecting multiple options -->
+    <form>
+        <p>Select your hobbies:</p>
+        <input type="checkbox" id="reading" name="hobby" value="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="traveling" name="hobby" value="traveling">
+        <label for="traveling">Traveling</label><br>
+        <input type="checkbox" id="cooking" name="hobby" value="cooking">
+        <label for="cooking">Cooking</label><br>
+    </form>
+    class and id in html layout for styling and targeting elements
+    <div class="container">
+        <h2>Class Example</h2>
+        <p>This is an example of using a class in HTML.</p>
+    </div>
+    <div id="unique">
+        <h2>ID Example</h2>
+        <p>This is an example of using an ID in HTML.</p> 
+    </div>
+    textarea in html layout for multi-line text input
+    <form>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    dropdown menu in html layout for selecting one option from a list
+    <form>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    iframe in html layout for embedding another webpage
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=rhlnj9nxe3VTJ9BE&amp;list=PL6ncTur7rttk2HUf47frxtZBbgzof0UuG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    video tag in html layout for embedding a video
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <video src="my video.mp4" controls loop height="240" width="320"></video>
+</body>
+</html>

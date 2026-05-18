@@ -1,0 +1,257 @@
+<!-- Make a Website for students. Make a signup form. Add links/iframes to Apna College's Coding videos. Make a table on home page to show the different topics covered in your page. using html above code -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Coding Website</title>
+</head>
+
+<body>
+
+    <!-- Website Heading -->
+
+    <h1>Student Learning Website</h1>
+
+    <p>
+        Welcome to the Coding Learning Website for Students.
+        Learn programming with videos, notes, and practice.
+    </p>
+
+    <hr>
+
+    <!-- Navigation -->
+
+    <a href="#home">Home</a>
+    <br><br>
+
+    <a href="#topics">Topics</a>
+    <br><br>
+
+    <a href="#videos">Coding Videos</a>
+    <br><br>
+
+    <a href="#signup">Signup Form</a>
+
+    <hr>
+
+    <!-- Home Section -->
+
+    <h2 id="home">Home Page</h2>
+
+    <img src="student.jpg" alt="Student Image" width="300">
+
+    <p>
+        This website helps students learn HTML and Programming.
+    </p>
+
+    <hr>
+
+    <!-- Topics Table -->
+
+    <h2 id="topics">Topics Covered</h2>
+
+    <table border="1">
+
+        <caption>Programming Topics</caption>
+
+        <thead>
+
+            <tr>
+                <th>Topic</th>
+                <th>Description</th>
+                <th>Level</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>HTML</td>
+                <td>Structure of Web Pages</td>
+                <td>Beginner</td>
+            </tr>
+
+            <tr>
+                <td>CSS</td>
+                <td>Website Styling</td>
+                <td>Beginner</td>
+            </tr>
+
+            <tr>
+                <td>JavaScript</td>
+                <td>Website Functionality</td>
+                <td>Intermediate</td>
+            </tr>
+
+            <tr>
+                <td>GitHub</td>
+                <td>Project Uploading</td>
+                <td>Beginner</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <hr>
+
+    <!-- Coding Videos Section -->
+
+    <h2 id="videos">Apna College Coding Videos</h2>
+
+    <p>
+        Learn coding from Apna College YouTube videos.
+    </p>
+
+    <!-- HTML Video -->
+
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/HcOc7P5BMi4"
+        title="HTML Tutorial">
+    </iframe>
+
+    <br><br>
+
+    <!-- CSS Video -->
+
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/ESnrn1kAD4E"
+        title="CSS Tutorial">
+    </iframe>
+
+    <br><br>
+
+    <!-- JavaScript Video -->
+
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/VlPiVmYuoqw"
+        title="JavaScript Tutorial">
+    </iframe>
+
+    <hr>
+
+    <!-- Signup Form -->
+
+    <h2 id="signup">Student Signup Form</h2>
+
+    <form>
+
+        <label for="fullname">Full Name:</label>
+        <br>
+
+        <input type="text" id="fullname" placeholder="Enter your name">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <br>
+
+        <input type="password" id="password" placeholder="Enter password">
+
+        <br><br>
+
+        <p>Select Your Course:</p>
+
+        <input type="radio" id="html" name="course">
+        <label for="html">HTML</label>
+
+        <br>
+
+        <input type="radio" id="css" name="course">
+        <label for="css">CSS</label>
+
+        <br>
+
+        <input type="radio" id="js" name="course">
+        <label for="js">JavaScript</label>
+
+        <br><br>
+
+        <p>Select Your Interests:</p>
+
+        <input type="checkbox" id="coding">
+        <label for="coding">Coding</label>
+
+        <br>
+
+        <input type="checkbox" id="design">
+        <label for="design">Web Design</label>
+
+        <br>
+
+        <input type="checkbox" id="freelancing">
+        <label for="freelancing">Freelancing</label>
+
+        <br><br>
+
+        <label for="country">Select Country:</label>
+
+        <br>
+
+        <select id="country">
+
+            <option>Pakistan</option>
+
+            <option>India</option>
+
+            <option>Turkey</option>
+
+            <option>Saudi Arabia</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="message">Why do you want to learn coding?</label>
+
+        <br>
+
+        <textarea id="message" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Signup">
+
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+    <hr>
+
+    <!-- Contact Section -->
+
+    <h2>Contact Us</h2>
+
+    <p>
+        Email: studentcoding@gmail.com
+    </p>
+
+    <a href="https://www.youtube.com/@ApnaCollegeOfficial">
+        Visit Apna College
+    </a>
+
+    <hr>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            Created By Ahmad Raza
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
